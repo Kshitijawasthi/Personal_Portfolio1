@@ -53,9 +53,9 @@ const ContactSection = () => {
         </div>
         <div>
           <form
-            // action="https://getform.io/f/87e18040-0ce3-4e4c-b773-c7e393506d8f"
-            // // enctype="multipart/form-data"
-            // method="POST"
+            action="https://getform.io/f/87e18040-0ce3-4e4c-b773-c7e393506d8f"
+            enctype="multipart/form-data"
+            method="POST"
             className="flex flex-col p-3"
           >
             <input

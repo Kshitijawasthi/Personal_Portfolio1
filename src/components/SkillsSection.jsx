@@ -10,7 +10,9 @@ const SkillsSection = () => {
         <SkillsCard title={"Nodejs"} value={65} />
         <SkillsCard title={"Expressjs"} value={75} />
         <SkillsCard title={"TailwindCss"} value={75} />
-        <SkillsCard title={"MongoDB"} value={55} />
+        <SkillsCard title={"C++"} value={85} />
+        <SkillsCard title={"Javascript"} value={75} />
+        <SkillsCard title={"MongoDB"} value={71} />
       </div>
     </div>
   );

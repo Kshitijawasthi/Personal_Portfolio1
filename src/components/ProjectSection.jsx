@@ -1,8 +1,10 @@
 import React from "react";
 import ProjectCard from "./ProjectCard";
-import quoteImg from "../assets/quoteImg.png"
-import lightLampImg from "../assets/lightLampImg.png"
-import employeeImg from "../assets/employeeImg.png"
+import quoteImg from "../assets/quoteImg.png";
+import lightLampImg from "../assets/lightLampImg.png";
+import employeeImg from "../assets/employeeImg.png";
+import portfolioImg from "../assets/portfolioImg.png";
+import jobPortal_Website from "../assets/jobPortal_Website.png";
 import { HiArrowSmLeft, HiArrowSmRight } from "react-icons/hi";
 import { useRef } from "react";
 
@@ -26,6 +28,13 @@ const ProjectSection = () => {
         className="flex overflow-x-scroll gap-8 lg:p-3 scroll-hide"
       >
         <ProjectCard
+          GitLink={"https://github.com/Kshitijawasthi/Job_Portal_website"}
+          HostLink={"https://job-portal-website-kshitij.vercel.app/"}
+          projectName={"Job-Portal-Website"}
+          topicDesc={` It resolved inefficiencies in job search and recruitment processes, connections between job seekers and employers`}
+          projectImg={jobPortal_Website}
+        />
+        <ProjectCard
           GitLink={"https://github.com/Kshitijawasthi/quote_generator"}
           HostLink={"https://joyful-crumble-ba82d7.netlify.app/"}
           projectName={"Quote Generator"}
@@ -48,17 +57,10 @@ const ProjectSection = () => {
         />
         <ProjectCard
           GitLink={"https://github.com/Kshitijawasthi/Personal_Portfolio1"}
-          HostLink={""}
+          HostLink={"https://kshitijawasthiportfolio.vercel.app/"}
           projectName={"Portfolio"}
           topicDesc={`This is my Personal portfolio which describe my all Projects also describe me what i do in developer life`}
-          projectImg={quoteImg}
-        />
-        <ProjectCard
-          GitLink={"https://github.com/Kshitijawasthi/quote_generator"}
-          HostLink={""}
-          projectName={"Quote Generator"}
-          topicDesc={`Its a quote generating website which gives different quotes using api method`}
-          projectImg={quoteImg}
+          projectImg={portfolioImg}
         />
       </div>
       <div className="flex justify-center items-center gap-3 mt-2 select-none">
