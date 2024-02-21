@@ -1,5 +1,5 @@
 import React from "react";
-import myImg from "../assets/myImg.jpeg";
+import myimg from "../assets/myimg.jpeg";
 
 const HomeCard = () => {
   return (
@@ -20,7 +20,7 @@ const HomeCard = () => {
       </div>
       <div data-aos="fade-up-left">
         <img
-          src={myImg}
+          src={myimg}
           alt="profile"
           className="rounded-full w-[200px] h-[200px] lg:w-[450px] lg:h-[450px] mx-auto"
         />
